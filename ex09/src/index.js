@@ -48,7 +48,7 @@ function findUserById(id) {
 
     } catch (error) {
 
-        console.log("Cannot read property 'id' ");
+        return console.log("Cannot read property 'id' ");
     }
 }
 
